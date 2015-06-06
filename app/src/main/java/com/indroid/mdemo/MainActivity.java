@@ -38,6 +38,12 @@ public class MainActivity extends Activity {
 
     }
 
+    // just to see in github :))))
+    @Override
+    public void onTrimMemory(int level) {
+        super.onTrimMemory(level);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
